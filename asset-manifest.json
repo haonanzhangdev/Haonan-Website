@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Haonan-Website/static/css/main.a617e044.chunk.css",
+    "main.js": "/Haonan-Website/static/js/main.fe4675e1.chunk.js",
+    "main.js.map": "/Haonan-Website/static/js/main.fe4675e1.chunk.js.map",
+    "runtime-main.js": "/Haonan-Website/static/js/runtime-main.61eb045a.js",
+    "runtime-main.js.map": "/Haonan-Website/static/js/runtime-main.61eb045a.js.map",
+    "static/js/2.9a3fd066.chunk.js": "/Haonan-Website/static/js/2.9a3fd066.chunk.js",
+    "static/js/2.9a3fd066.chunk.js.map": "/Haonan-Website/static/js/2.9a3fd066.chunk.js.map",
+    "static/js/3.a2d388fa.chunk.js": "/Haonan-Website/static/js/3.a2d388fa.chunk.js",
+    "static/js/3.a2d388fa.chunk.js.map": "/Haonan-Website/static/js/3.a2d388fa.chunk.js.map",
+    "index.html": "/Haonan-Website/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/Haonan-Website/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.9a3fd066.chunk.js.LICENSE.txt": "/Haonan-Website/static/js/2.9a3fd066.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61eb045a.js",
+    "static/js/2.9a3fd066.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.fe4675e1.chunk.js"
+  ]
+}
