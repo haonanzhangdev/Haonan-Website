@@ -53,7 +53,6 @@ const Homepage = () => (
     <>
     <HomeCarousel />
         <Intro>
-            
             <Logo>
                 <LogoImg src={profile} alt='Avatar' />
             </Logo>
