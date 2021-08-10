@@ -1,20 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
 import Logo from './components/Logo';
-
-const Header = styled.div`
-  border-bottom: 1px solid #dadada;
-`;
+import Item from './components/NavbarItems';
 
 const Container = styled.div`
-  width: 1024px;
-  margin-left: 60px;
+  border-bottom: 1px solid #dadada;
   margin-top: 10px;
   margin-bottom: 10px;
+  /* height: 57px; */
+  margin-left: 50px;
+  margin-right: 50px;
 `;
 
 const Layout = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 15px;
 `;
 
 const Left = styled.div`
@@ -25,18 +27,16 @@ const Right = styled.div`
 `;
 
 const Navbar = () => (
-    <Header>
-        <Container>
-            <Layout>
-                <Left>
-                  <Logo />
-                </Left>
-                <Right>
-
-                </Right>
-            </Layout>
-        </Container>
-    </Header>
+  <Container>
+      <Layout>
+          <Left>
+            <Logo />
+          </Left>
+          <Right>
+            <Item />
+          </Right>
+      </Layout>
+  </Container>
 );
 
 export default Navbar;
