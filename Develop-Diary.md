@@ -1,6 +1,22 @@
 Readable, Maintainable, Reusable
 
-Break The UI Into A Component Hierarchy
+# Break The UI Into A Component Hierarchy
 
-- Navbar
-- 
+APP
+- Header
+  - Logo
+  - Navbar
+    - navItem
+- Homepage (Landing Page)
+- About (Page)
+- Resume (Page)
+- Projects (Page)
+- Contact (Page)
+
+# Navbar
+- divide into left and right
+- left: logo
+- right: navbar item
+
+# Homepage
+- divide into Avatar img, Title, Email
