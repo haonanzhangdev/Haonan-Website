@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import profile from '../../assets/img/profile.jpg';
 import HomeCarousel from './components/carousel/HomeCarousel';
+import Footer from '../../components/Footer/footer';
 
 const Intro = styled.div`
     border-bottom: 1px solid #dadada;
@@ -63,6 +64,7 @@ const Homepage = () => (
                 </Email>
             </Header>
         </Intro>
+    <Footer />
     </>
 )
 export default Homepage;

@@ -19,4 +19,7 @@ APP
 - right: navbar item
 
 # Homepage
-- divide into Avatar img, Title, Email
+- header(navbar)
+- divide intro into Avatar img, Title, Email
+- carousel components
+- footer
