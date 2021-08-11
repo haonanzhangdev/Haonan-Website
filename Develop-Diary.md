@@ -12,6 +12,7 @@ APP
 - Resume (Page)
 - Projects (Page)
 - Contact (Page)
+- Footer
 
 # Navbar
 - divide into left and right
@@ -19,7 +20,6 @@ APP
 - right: navbar item
 
 # Homepage
-- header(navbar)
-- divide intro into Avatar img, Title, Email
+- header
 - carousel components
-- footer
+- divide intro into Avatar img, Title, Email
