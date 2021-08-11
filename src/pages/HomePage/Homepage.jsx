@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import profile from '../../assets/img/profile.jpg';
 import HomeCarousel from './components/carousel/HomeCarousel';
-import Footer from '../../components/Footer/footer';
+import SiteIntro from './components/SiteIntro'
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 const Intro = styled.div`
     border-bottom: 1px solid #dadada;
@@ -52,6 +54,8 @@ const Email = styled.a`
 
 const Homepage = () => (
     <>
+    <Navbar />
+    <SiteIntro />
     <HomeCarousel />
         <Intro>
             <Logo>
