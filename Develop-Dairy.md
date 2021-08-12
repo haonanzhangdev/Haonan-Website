@@ -4,3 +4,9 @@
     - router 单独放文件夹
     - header, footer 提出复用
     - main 文件 children 问题
+
+# 12 AUG 2021
+- Resume
+    - Exp part link待补充: Sentiment analysis, Classification and rating prediction
+    - skills part 完成button component
+    - skills part 如何通过button开关改变内容。
