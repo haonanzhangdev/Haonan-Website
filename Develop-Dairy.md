@@ -10,3 +10,5 @@
     - Exp part link待补充: Sentiment analysis, Classification and rating prediction
     - skills part 完成button component
     - skills part 如何通过button开关改变内容。
+- Projects
+    - 鼠标放在图片上，图片稍微放大的效果
