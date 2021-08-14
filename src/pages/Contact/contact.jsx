@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { AiOutlineSmile } from "react-icons/ai";
+import ContactIcon from '../../components/ContactIcon';
 
 
 const Container = styled.div`
@@ -11,6 +12,7 @@ const Container = styled.div`
     border: 1px solid hsla(0,0%,62.7%,.3);
     margin: 0 0 3em;
     position: relative;
+    font-family: "Raleway",Helvetica,sans-serif;
 `;
 
 const Header = styled.div`
@@ -24,7 +26,7 @@ const Header = styled.div`
 
 const Title = styled.div`
     padding: 1em 1em 2em;
-    font-family: "Raleway",Helvetica,sans-serif;
+    /* font-family: "Raleway",Helvetica,sans-serif; */
     letter-spacing: .25em;
     line-height: 1.65;
     text-transform: uppercase;
@@ -52,6 +54,30 @@ const Intro = styled.div`
     font-weight: 600;
 `;
 
+const Emailat = styled.div`
+    margin: 3em 1em;
+`;
+
+const Emailline = styled.div`
+    width: 100%;
+`;
+
+const Emaillink = styled.a`
+    transition: color .2s ease,border-bottom-color .2s ease;
+    border-bottom: 1px dotted hsla(0,0%,62.7%,.65);
+    color: inherit;
+    text-decoration: none;
+    :hover{
+        color: #0056b3;
+        text-decoration: none;
+    }
+`;
+
+const Icons = styled.div`
+    margin-left: -2em;
+`;
+
+
 
 const Contact = () => (
     <>
@@ -61,10 +87,19 @@ const Contact = () => (
             <Title>
                 <H2>Contact</H2>
                 <IntroContainer>
-                <Intro>Feel free to contact me {AiOutlineSmile}</Intro>
+                <Intro>Feel free to contact me <AiOutlineSmile /></Intro>
                 </IntroContainer>
             </Title>
         </Header>
+        <Emailat>
+            <p>Hey, please feel free to email me at:</p>
+            <Emailline>
+                <Emaillink>
+                    conanzahn@gmail.com
+                </Emaillink>
+            </Emailline>
+        </Emailat>
+        <Icons><ContactIcon /></Icons>
     </Container>
     <Footer />
     </>
