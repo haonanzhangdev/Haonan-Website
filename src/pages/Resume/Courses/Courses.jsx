@@ -73,7 +73,7 @@ const LinkCR = styled.a`
 
 const Courses = () => (
     <Cour>
-        <CourTit>Skills</CourTit>
+        <CourTit>Courses</CourTit>
         <CourBody>
             <UL>
                 <Li>

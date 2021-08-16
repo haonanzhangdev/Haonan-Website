@@ -23,3 +23,11 @@ APP
 - header
 - carousel components
 - divide intro into Avatar img, Title, Email
+
+# Resume
+- education
+- experience
+- skills
+- courses
+
+

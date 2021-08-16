@@ -12,3 +12,6 @@
     - skills part 如何通过button开关改变内容。
 - Projects
     - 鼠标放在图片上，图片稍微放大的效果
+
+# 16 AUG 2021
+- responsibility: Navbar, Carousel
