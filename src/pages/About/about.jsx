@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
+import Introduction from './Intro';
+import Interests from './Interests';
 
 const Container = styled.div`
     padding: 3em 3em 1em;
@@ -65,6 +67,8 @@ const about = () => (
                 </IntroContainer>
             </Title>
         </Header>
+        <Introduction />
+        <Interests />
     </Container>
     <Footer />
     </>
