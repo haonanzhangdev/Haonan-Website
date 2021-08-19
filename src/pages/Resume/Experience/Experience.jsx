@@ -104,6 +104,49 @@ const Experience = () => (
 
         <ExpBody>
             <Headh4>
+                Velocity Estimation and Lane Detection (Computer Vision)
+            </Headh4>
+            <Time>
+                <Linksch href = 'https://github.com/conanzahn/Velocity-Estimation-and-Lane-Detection.git/'>
+                    Python Imlementation Repo
+                </Linksch>, April 2021
+            </Time>
+            <Points>
+                <List>Skills: Python, OpenCV, Scikit-Learn, Matplotlib, SciPy, Numpy.</List>
+                <List>Responsibility: Driving Lane Detection.</List>
+                <List>Method of Driving Lane Detection divided into three parts: Dataset Preprocessing, Detection, Optimization.</List>
+                <List>Extract Region of interest(ROI) from the whole training data set.</List>
+                <List>Apply the Gaussian smoothing algorithm to remove noises.</List>
+                <List>Combine RGB and HSV color spaces with specific thresholding.</List>
+                <List>Use the canny edge detector to find the boundary position of the driving lane.</List>
+                <List>Apply the Hough Transform as a feature extraction technique to detect whether a line exists in the edge image. </List>
+                <List> Averaging and extrapolating are chosen to optimize the results, the reason is that each driving 
+                    lane lines in the image have a different slope, using this can grouping and dividing lines.</List>
+            </Points>
+        </ExpBody>
+
+        <ExpBody>
+            <Headh4>
+                Vehicle Detection (Computer Vision)
+            </Headh4>
+            <Time>
+                <Linksch href = 'https://github.com/conanzahn/Vehicle-Detection-Computer-Vision-.git/'>
+                    Python Imlementation Repo
+                </Linksch>, March 2021
+            </Time>
+            <Points>
+                <List>Skills: Python, OpenCV, Scikit-Learn, Matplotlib, SciPy, Numpy.</List>
+                <List>Preprocessing: Extract vehicle image regions(ROI) from the whole 
+                    training data set, using the 'bbox' message from the annotation file.</List>
+                <List>Feature extraction: I select the histogram of oriented gradients(HOG) 
+                    method to extract features.</List>
+                <List>Classifier: Use support vector machine (SVM) model.</List>
+                <List>Object Detection: Use sliding window technology search vehicles in image.</List>
+            </Points>
+        </ExpBody>
+
+        <ExpBody>
+            <Headh4>
                 Classification and rating prediction for user reviews (deep learning model) - Developer
             </Headh4>
             <Time>

@@ -21,6 +21,7 @@ const ItemStyle = styled(Link)`
 
 const Items = () => (
     <Layout>
+        {/* haven't fill this part, temporatelt redirect to the homepage*/}
         <ItemStyle to='/About'>About</ItemStyle>
         <ItemStyle to='/Resume'>Resume</ItemStyle>
         <ItemStyle to='/Projects'>Projects</ItemStyle>

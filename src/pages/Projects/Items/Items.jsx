@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import VE from '../../../assets/img/VE_HP.jpg';
+import Lane from '../../../assets/img/Lane_Detect.jpg';
+import Vehicle from '../../../assets/img/vehicle.jpg';
 
 const Cells = styled.div`
     position: relative;
@@ -58,8 +60,10 @@ const Href = styled.a`
 
 const IMG = styled.img`
     transition: transform .2s ease-out;
-    width: 100%;
+    width: 80%;
+    height: 80%;
     display: block;
+    padding-left: 12em;
 `;
 
 const DES = styled.div`
@@ -96,6 +100,38 @@ const Items = () => (
                     build for diners and eateries. Diners can search, navigate, 
                     book and manager vouchers; Eateries can distribute, manage voucher 
                     for their restaurant.</DesP>
+            </DES>
+        </Post>
+
+        <Post>
+            <PostHeader>
+                <H3>Velocity Estimation and Lane Detection (Computer Vision)</H3>
+                <P>April 2021</P>
+            </PostHeader>
+            <Href href='https://github.com/conanzahn/Velocity-Estimation-and-Lane-Detection.git/'>
+                <IMG src={Lane}/>
+            </Href>
+            <DES>
+                <DesP>This is a group project about computer vision. Using python 
+                    to develop a programme estimate vehicle velocity and detect high-way driving lane.</DesP>
+            </DES>
+        </Post>
+
+        <Post>
+            <PostHeader>
+                <H3>Vehicle Detection (Computer Vision)</H3>
+                <P>March 2021</P>
+            </PostHeader>
+            <Href href='https://github.com/conanzahn/Vehicle-Detection-Computer-Vision-.git'>
+                <IMG src={Vehicle}/>
+            </Href>
+            <DES>
+                <DesP>Vehicle detection and statistics are an important component of 
+                    computer vision. With the popular installation of traffic surveillance 
+                    cameras, the use of computer vision for intelligent recognization and 
+                    analysis of vehicles becomes very effective. Vehicle detection takes 
+                    images as input, analyzes through a series of algorithms, and outputs 
+                    labelled images with bounding boxes around the recognized vehicles.</DesP>
             </DES>
         </Post>
     </Cells>
