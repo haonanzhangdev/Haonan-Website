@@ -14,18 +14,6 @@ const Language = () => (
             <li>C</li>
             </Col>
         </Row>
-        
-        <Row className="justify-content-md-center">
-            <Col xs lg="3">
-            <li>HTML</li>
-            </Col>
-            <Col xs lg="3">
-            <li>C</li>
-            </Col>
-            <Col xs lg="3">
-            <li>SASS/CSS</li>
-            </Col>
-        </Row>
 
         <Row className="justify-content-md-center">
             <Col xs lg="3">
@@ -36,6 +24,18 @@ const Language = () => (
             </Col>
             <Col xs lg="3">
             <li>MySQL</li>
+            </Col>
+        </Row>
+
+        <Row className="justify-content-md-center">
+            <Col xs lg="3">
+            <li>HTML</li>
+            </Col>
+            <Col xs lg="3">
+            <li>SASS/CSS</li>
+            </Col>
+            <Col xs lg="3">
+            
             </Col>
         </Row>
     </Container>

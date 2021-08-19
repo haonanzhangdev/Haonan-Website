@@ -26,6 +26,18 @@ const Pythonlist = () => (
             <li>Numpy</li>
             </Col>
         </Row>
+
+        <Row className="justify-content-md-center">
+            <Col xs lg="3">
+            <li>OpenCV</li>
+            </Col>
+            <Col xs lg="3">
+            <li>Matplotlib</li>
+            </Col>
+            <Col xs lg="3">
+            <li>SciPy</li>
+            </Col>
+        </Row>
     </Container>
 )
 export default Pythonlist;
