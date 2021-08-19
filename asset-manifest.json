@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/Haonan-Website/static/css/main.92a72afa.chunk.css",
-    "main.js": "/Haonan-Website/static/js/main.b0123dd9.chunk.js",
-    "main.js.map": "/Haonan-Website/static/js/main.b0123dd9.chunk.js.map",
+    "main.js": "/Haonan-Website/static/js/main.3117bff6.chunk.js",
+    "main.js.map": "/Haonan-Website/static/js/main.3117bff6.chunk.js.map",
     "runtime-main.js": "/Haonan-Website/static/js/runtime-main.74d58eb2.js",
     "runtime-main.js.map": "/Haonan-Website/static/js/runtime-main.74d58eb2.js.map",
-    "static/js/2.fc370df5.chunk.js": "/Haonan-Website/static/js/2.fc370df5.chunk.js",
-    "static/js/2.fc370df5.chunk.js.map": "/Haonan-Website/static/js/2.fc370df5.chunk.js.map",
+    "static/js/2.3026a5c3.chunk.js": "/Haonan-Website/static/js/2.3026a5c3.chunk.js",
+    "static/js/2.3026a5c3.chunk.js.map": "/Haonan-Website/static/js/2.3026a5c3.chunk.js.map",
     "static/js/3.35d71e3c.chunk.js": "/Haonan-Website/static/js/3.35d71e3c.chunk.js",
     "static/js/3.35d71e3c.chunk.js.map": "/Haonan-Website/static/js/3.35d71e3c.chunk.js.map",
     "index.html": "/Haonan-Website/index.html",
     "static/css/main.92a72afa.chunk.css.map": "/Haonan-Website/static/css/main.92a72afa.chunk.css.map",
-    "static/js/2.fc370df5.chunk.js.LICENSE.txt": "/Haonan-Website/static/js/2.fc370df5.chunk.js.LICENSE.txt",
+    "static/js/2.3026a5c3.chunk.js.LICENSE.txt": "/Haonan-Website/static/js/2.3026a5c3.chunk.js.LICENSE.txt",
+    "static/media/Lane_Detect.8866383e.jpg": "/Haonan-Website/static/media/Lane_Detect.8866383e.jpg",
     "static/media/VE_HP.90a9d601.jpg": "/Haonan-Website/static/media/VE_HP.90a9d601.jpg",
     "static/media/about.1c0c4b8f.jpg": "/Haonan-Website/static/media/about.1c0c4b8f.jpg",
     "static/media/profile.6347641a.jpg": "/Haonan-Website/static/media/profile.6347641a.jpg",
     "static/media/resume.292a1a57.jpg": "/Haonan-Website/static/media/resume.292a1a57.jpg",
-    "static/media/site.8a975131.jpg": "/Haonan-Website/static/media/site.8a975131.jpg"
+    "static/media/site.8a975131.jpg": "/Haonan-Website/static/media/site.8a975131.jpg",
+    "static/media/vehicle.36c7aa0d.jpg": "/Haonan-Website/static/media/vehicle.36c7aa0d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.74d58eb2.js",
-    "static/js/2.fc370df5.chunk.js",
+    "static/js/2.3026a5c3.chunk.js",
     "static/css/main.92a72afa.chunk.css",
-    "static/js/main.b0123dd9.chunk.js"
+    "static/js/main.3117bff6.chunk.js"
   ]
 }
