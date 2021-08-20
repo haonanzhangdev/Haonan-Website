@@ -30,8 +30,8 @@ const Button = styled.button`
     ${(props) => {
     const style = {
         small: css`
-        padding: 8px 18px;
-        font-size: 14px;
+        padding: 8px 16px;
+        font-size: 12px;
         `,
         medium: css`
         padding: 12px 18px;
@@ -63,6 +63,17 @@ const Button = styled.button`
         :hover {
         background-color: #04AA6D;
         color: white;
+        }
+        `,
+        download: css`
+        border: hidden;
+        border-radius: 8px;
+        background-color: #5cac8e;
+        color: white;
+        :hover {
+        background-color: #437764;
+        color: white;
+        border: hidden;
         }
         `,
     }[props.variant];

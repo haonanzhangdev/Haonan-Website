@@ -6,6 +6,8 @@ import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
 import Courses from './Courses';
+import Button from '../../components/Button';
+import Resume from '../../assets/doc/Resume.pdf';
 
 const Container = styled.div`
     padding: 3em 3em 1em;
@@ -36,12 +38,14 @@ const Title = styled.div`
 const H2 = styled.h2`
     font-weight: 900;
     font-size: 1.5em;
+    display: inline-block;
     
 `;
 
 const IntroContainer = styled.div`
     margin-bottom: 0;
     display: flex;
+    
 `;
 
 const Intro = styled.div`
@@ -54,6 +58,12 @@ const Intro = styled.div`
     font-weight: 600;
 `;
 
+const DL = styled.a`
+    display: inline-block;
+    padding-left: 3.5em;
+    font-weight: 500;
+    font-size: 1.2em;
+`;
 
 
 const resume = () => (
@@ -63,13 +73,16 @@ const resume = () => (
         <Header>
             <Title>
                 <H2>Resume</H2>
+                <DL href={Resume} download><Button variant='download' size='small'>Download</Button></DL>
                 <IntroContainer>
                 <Intro>Eduaction</Intro>
                 <Intro>Experience</Intro>
                 <Intro>Skills</Intro>
                 <Intro>Courses</Intro>
                 </IntroContainer>
+                
             </Title>
+            
         </Header>
         <Education />
         <Experience />
