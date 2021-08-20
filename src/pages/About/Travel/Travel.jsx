@@ -43,28 +43,34 @@ const List = styled.li`
     color: #4b4b4b;
 `;
 
-const Interests = () => (
+const Travel = () => (
     <Tra>
         <TraTit>My Travel</TraTit>
         <TraBody>
             <Headh4>
-                I have been to some beautiful places in my extra time. 
-                Honestly, I starts loving travel after I graduate from high school. 
-                This is because, in china, students do not have too much relax time
-                until they enter college. 
+                <p>I have been to some beautiful places in my extra time. 
+                Honestly, I start loving travel after I graduate from high school. 
+                This is because, in the country that I was born, students do not have too much relax time
+                until they enter college. </p>
+                <p>Many cities in China are really charming and attractive, although some places I cannot 
+                remember since it's too long ago.</p>
+                <p>I haven't been to many countries that were my pity! While I hope I can have 
+                opportunities to visit different countries to widen my horizon in the future.</p>
             </Headh4>
             <Points>
-                <List> </List>
-                <List> </List>
-                <List> </List>
-                <List> </List>
-                <List> </List>
-                <List> </List>
-                <List> </List>
-                <List> </List>
-                <List> </List>
+                <List>I have been to Shanghai many times with my parents when I was a kid</List>
+                <List>During 2014-2018, I lived in Guang Dong to complete my bachelor degree</List>
+                <List>In 2014, I visited: Hefei, Nanjing, Guangzhou</List>
+                <List>In 2015, I visited: Hefei, Shantou, Jieyang </List>
+                <List>In 2016, I visited: Nanjing, Shantou, Xiamen, Beijing </List>
+                <List>In 2017, I visited: Suzhou, Ningbo, Guangzhou, Shanghai </List>
+                <List>In 2018, I live in Nanjing. I visited: Kuala Lumpur(Malaysia), Hongkong, Guangzhou</List>
+                <List>2019 - Now, I came to Sydney(Australia) study information technology master degree</List>
+                <List>In 2019, I visited Canbera(NSW), Gold Cost(Brisbane), Wollongong(NSW)</List>
+                <List>In 2020, I visited Hobart and Launceston in Tasmania</List>
+                <List>Stay safe at home during Lockdown period</List>
             </Points>
         </TraBody>
     </Tra>
 )
-export default Interests;
+export default Travel;

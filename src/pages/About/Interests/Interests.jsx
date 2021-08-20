@@ -48,7 +48,7 @@ const Interests = () => (
         <IntTit>My Interests</IntTit>
         <IntBody>
             <Headh4>
-                Following are Some things I like to do to fill my time with: 
+                <p>Following are Some things I like to do to fill my time with: </p>
             </Headh4>
             <Points>
                 <List>Photography</List>

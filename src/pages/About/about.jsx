@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import Introduction from './Intro';
 import Interests from './Interests';
+import Travel from './Travel';
 
 const Container = styled.div`
     padding: 3em 3em 1em;
@@ -69,6 +70,7 @@ const about = () => (
         </Header>
         <Introduction />
         <Interests />
+        <Travel />
     </Container>
     <Footer />
     </>
