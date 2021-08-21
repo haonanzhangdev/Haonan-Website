@@ -13,6 +13,35 @@ This is my personal website. A simple and beautiful website built by React app.
 ✔️ Project 
 ✔️ Contact 
 
+## Structure
+
+```bash
+.
+├── build
+│   └── static              
+├── src
+│   └── assets              # Assets
+│   │   │── doc             	# files
+│   │   └── img         		# images 
+│   ├── components          # Components
+│   │   │── Navbar          	# component - Header
+│   │   │── Button          	# Common components
+│   │   │── ContactIcon     	# Common components
+│   │   └── Footer          	# component - Footer
+│   ├── data          		# data
+│   │   │── Contact         	# contact data
+│   └── pages               # Pages
+│   │   │── Homepage     		# Homepage
+│   │   │── About          		# AboutMe page
+│   │   │── Resume     			# Resume Page
+│   │   │── Projects       		# Projects Page
+│   │   └── Contact        		# Contact Page
+└── public                  # favicon & index
+```
+
+
+
+
 ## Getting started
 1. Clone the repo to your machine ```[git clone https://github.com/conanzahn/Haonan-Website.git]```
 
