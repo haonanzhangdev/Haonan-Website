@@ -20,3 +20,7 @@ This is my personal website. A simple and beautiful website built by React app.
 
 ## Run the application
 #### ```[npm start]``` (This will start the website on the address [localhost:3000](http://localhost:3000))
+
+
+## Thanks
+If you like this template don't forget give it a ⭐ and also share it with me [here](mailto:conanzahn@gmail.com).
