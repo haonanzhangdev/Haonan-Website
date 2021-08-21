@@ -4,7 +4,7 @@ This is my personal website. A simple and beautiful website built by React app.
 [Deployed Demo](https://conanzahn.github.io/Haonan-Website/)
 
 # Preview
-
+![web](https://user-images.githubusercontent.com/54277153/130323600-52cf3b3d-d524-4e2b-8869-bed113dc5ab2.jpg)
 
 ## Sections
 ✔️ Homepage 
@@ -19,4 +19,4 @@ This is my personal website. A simple and beautiful website built by React app.
 2. Install the dependencies ```[npm install]```
 
 ## Run the application
-#### ```[npm start]``` (This will start the front-end on the address [localhost:3000](http://localhost:3000))
+#### ```[npm start]``` (This will start the website on the address [localhost:3000](http://localhost:3000))
