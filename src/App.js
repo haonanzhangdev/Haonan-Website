@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Haonan-Website">
       {/* <Suspense fallback={<Main />}> */}
         <Switch>
           <Route path="/" exact component={Homepage}/>
