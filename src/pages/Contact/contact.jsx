@@ -92,11 +92,11 @@ const Contact = () => (
             </Title>
         </Header>
         <Emailat>
-            <form action="https://formspree.io/f/xbjqppdw" method="post">
+            {/* <form action="https://formspree.io/f/xbjqppdw" method="post">
                 <label for="email">Your Email</label>
                 <input name="Email" id="email" type="email" />
                 <button type="submit">Submit</button>
-            </form>
+            </form> */}
             <p>Hey, please feel free to email me at:</p>
             <Emailline>
                 <Emaillink>

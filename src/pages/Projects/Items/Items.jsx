@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import VE from '../../../assets/img/VE_HP.jpg';
 import Lane from '../../../assets/img/Lane_Detect.jpg';
 import Vehicle from '../../../assets/img/vehicle.jpg';
+import VEIMG from '../components/valueEats';
 
 const Cells = styled.div`
     position: relative;
@@ -93,7 +94,8 @@ const Items = () => (
                 <P>MAY 2021 - AUGUST 2021</P>
             </PostHeader>
             <Href href='https://github.com/conanzahn/ValueEatsWebsite9900.git'>
-                <IMG src={VE}/>
+                {/* <IMG src={VE}/> */}
+                <VEIMG />
             </Href>
             <DES>
                 <DesP>Value eats is a discount voucher website, 

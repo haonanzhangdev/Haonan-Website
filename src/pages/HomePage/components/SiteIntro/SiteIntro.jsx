@@ -52,7 +52,8 @@ const SiteIntro = () => (
             <Heading>Welcome</Heading>
             <Paragh>Hi, Welcome to my website! 
                 A well designed React Application Written by Javascript.
-                Please feel free to check the source code in GitHub Repo 
+                Please feel free to check the source code in 
+                <a href='https://github.com/conanzahn/Haonan-Website.git'> GitHub Repo </a> 
                 and give me some suggestion.{smile}</Paragh>
         </Title>
         </Header>
