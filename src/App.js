@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router basename="/Haonan-Website">
-      {/* <Suspense fallback={<Main />}> */}
+      <Suspense fallback={<Main />}>
         <Switch>
           <Route path="/" exact component={Homepage}/>
           <Route path="/About" exact component={About}/>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/Projects" exact component={Projects}/>
           <Route path="/Contact" exact component={Contact}/>
         </Switch>
-      {/* </Suspense> */}
+      </Suspense>
     </Router>
   );
 }
