@@ -1,7 +1,8 @@
 # Haonan-s-Website
 This is my personal website. A simple and beautiful website built by React app.
 <!-- See: Haonan Website -->
-[Deployed Demo](https://conanzahn.github.io/Haonan-Website/)
+[Deployed in AWS S3](http://haonan.zhang.website.s3-website.us-east-2.amazonaws.com/)
+[Deployed in GitHub Pages](https://conanzahn.github.io/Haonan-Website/)
 
 # Preview
 ![web](https://user-images.githubusercontent.com/54277153/130323600-52cf3b3d-d524-4e2b-8869-bed113dc5ab2.jpg)
