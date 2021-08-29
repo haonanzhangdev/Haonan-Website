@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Haonan-Website/static/css/main.45e9e50a.chunk.css",
-    "main.js": "/Haonan-Website/static/js/main.cb5dd2ac.chunk.js",
-    "main.js.map": "/Haonan-Website/static/js/main.cb5dd2ac.chunk.js.map",
+    "main.js": "/Haonan-Website/static/js/main.ede26046.chunk.js",
+    "main.js.map": "/Haonan-Website/static/js/main.ede26046.chunk.js.map",
     "runtime-main.js": "/Haonan-Website/static/js/runtime-main.cdb9df67.js",
     "runtime-main.js.map": "/Haonan-Website/static/js/runtime-main.cdb9df67.js.map",
     "static/js/2.10135008.chunk.js": "/Haonan-Website/static/js/2.10135008.chunk.js",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.cdb9df67.js",
     "static/js/2.10135008.chunk.js",
     "static/css/main.45e9e50a.chunk.css",
-    "static/js/main.cb5dd2ac.chunk.js"
+    "static/js/main.ede26046.chunk.js"
   ]
 }
