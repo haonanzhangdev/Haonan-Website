@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Haonan-Website/static/css/main.45e9e50a.chunk.css",
-    "main.js": "/Haonan-Website/static/js/main.6a8d5398.chunk.js",
-    "main.js.map": "/Haonan-Website/static/js/main.6a8d5398.chunk.js.map",
-    "runtime-main.js": "/Haonan-Website/static/js/runtime-main.cdb9df67.js",
-    "runtime-main.js.map": "/Haonan-Website/static/js/runtime-main.cdb9df67.js.map",
-    "static/js/2.10135008.chunk.js": "/Haonan-Website/static/js/2.10135008.chunk.js",
-    "static/js/2.10135008.chunk.js.map": "/Haonan-Website/static/js/2.10135008.chunk.js.map",
-    "static/js/3.7cd40caf.chunk.js": "/Haonan-Website/static/js/3.7cd40caf.chunk.js",
-    "static/js/3.7cd40caf.chunk.js.map": "/Haonan-Website/static/js/3.7cd40caf.chunk.js.map",
+    "main.js": "/Haonan-Website/static/js/main.0a81e4b4.chunk.js",
+    "main.js.map": "/Haonan-Website/static/js/main.0a81e4b4.chunk.js.map",
+    "runtime-main.js": "/Haonan-Website/static/js/runtime-main.d9eaa470.js",
+    "runtime-main.js.map": "/Haonan-Website/static/js/runtime-main.d9eaa470.js.map",
+    "static/js/2.22d613db.chunk.js": "/Haonan-Website/static/js/2.22d613db.chunk.js",
+    "static/js/2.22d613db.chunk.js.map": "/Haonan-Website/static/js/2.22d613db.chunk.js.map",
+    "static/js/3.625f1aaf.chunk.js": "/Haonan-Website/static/js/3.625f1aaf.chunk.js",
+    "static/js/3.625f1aaf.chunk.js.map": "/Haonan-Website/static/js/3.625f1aaf.chunk.js.map",
     "index.html": "/Haonan-Website/index.html",
     "static/css/main.45e9e50a.chunk.css.map": "/Haonan-Website/static/css/main.45e9e50a.chunk.css.map",
-    "static/js/2.10135008.chunk.js.LICENSE.txt": "/Haonan-Website/static/js/2.10135008.chunk.js.LICENSE.txt",
+    "static/js/2.22d613db.chunk.js.LICENSE.txt": "/Haonan-Website/static/js/2.22d613db.chunk.js.LICENSE.txt",
     "static/media/FOREATERY.4dfd9c13.jpg": "/Haonan-Website/static/media/FOREATERY.4dfd9c13.jpg",
     "static/media/HOMEPAGE.7ecf478d.jpg": "/Haonan-Website/static/media/HOMEPAGE.7ecf478d.jpg",
     "static/media/Lane_Detect.8866383e.jpg": "/Haonan-Website/static/media/Lane_Detect.8866383e.jpg",
@@ -27,9 +27,9 @@
     "static/media/vehicle.36c7aa0d.jpg": "/Haonan-Website/static/media/vehicle.36c7aa0d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cdb9df67.js",
-    "static/js/2.10135008.chunk.js",
+    "static/js/runtime-main.d9eaa470.js",
+    "static/js/2.22d613db.chunk.js",
     "static/css/main.45e9e50a.chunk.css",
-    "static/js/main.6a8d5398.chunk.js"
+    "static/js/main.0a81e4b4.chunk.js"
   ]
 }
