@@ -4,6 +4,9 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { AiOutlineSmile } from "react-icons/ai";
 import ContactIcon from '../../components/ContactIcon';
+import {Form} from 'react-bootstrap';
+import Button from '../../components/Button';
+// import Forms from '../../components/Form';
 
 
 const Container = styled.div`
@@ -54,6 +57,11 @@ const Intro = styled.div`
     font-weight: 600;
 `;
 
+const Line = styled.div`
+    border-top: 1px solid hsla(0,0%,62.7%,.3);
+    margin-top: 5em;
+`;
+
 const Emailat = styled.div`
     margin: 3em 1em;
 `;
@@ -77,6 +85,14 @@ const Icons = styled.div`
     margin-left: -2em;
 `;
 
+const Sendform = styled(Form)`
+    margin-left: 1em;
+    width: 40%;
+`;
+
+const Sendbutton = styled(Button)`
+    margin-left: 28%;
+`;
 
 
 const Contact = () => (
@@ -91,12 +107,24 @@ const Contact = () => (
                 </IntroContainer>
             </Title>
         </Header>
+        <Sendform action="https://formspree.io/f/xbjqppdw" method="post">
+
+            <Form.Group className="mb-3">
+                <Form.Label>Your Email</Form.Label>
+                <Form.Control type="email" placeholder="name@example.com" />
+            </Form.Group>
+            <Form.Group className="mb-3">
+                <Form.Label>Message</Form.Label>
+                <Form.Control as="textarea" rows={3} placeholder="Leave me a message .."/>
+            </Form.Group>
+
+            {/* <Forms /> */}
+
+            <div><Sendbutton variant="send" size='wide' type='submit'>Send</Sendbutton></div>
+        </Sendform>
+
+        <Line />
         <Emailat>
-            {/* <form action="https://formspree.io/f/xbjqppdw" method="post">
-                <label for="email">Your Email</label>
-                <input name="Email" id="email" type="email" />
-                <button type="submit">Submit</button>
-            </form> */}
             <p>Hey, please feel free to email me at:</p>
             <Emailline>
                 <Emaillink>

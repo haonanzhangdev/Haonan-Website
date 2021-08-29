@@ -5,17 +5,16 @@ import Item from './components/NavbarItems';
 
 const Container = styled.div`
   border-bottom: 1px solid #dadada;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
+  background-color: #222224;
 `;
 
 const Layout = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 9px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 8px;
 `;
 
 const Left = styled.div`

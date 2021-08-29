@@ -12,9 +12,9 @@ const Layout = styled.div`
 const ItemStyle = styled(Link)`
     padding-left: 20px;
     padding-right: 20px;
-    color: #414453;
+    color: #e6e6e7;
     &:hover {
-        color: #b35c0b;
+        color: #e4aa48;
         text-decoration:none;
     }
 `;

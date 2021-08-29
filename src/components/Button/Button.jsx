@@ -41,6 +41,10 @@ const Button = styled.button`
         padding: 16px 18px;
         font-size: 18px;
         `,
+        wide: css`
+        padding: 8px 60px;
+        font-size: 16px;
+        `,
         // medium是default
     }[props.size || 'medium'];
 
@@ -57,14 +61,6 @@ const Button = styled.button`
         background: #f5f8fd;
         color: #008fb4;
         `,
-        success: css`
-        background: #7db343;
-        color: white;
-        :hover {
-        background-color: #04AA6D;
-        color: white;
-        }
-        `,
         download: css`
         border: hidden;
         border-radius: 8px;
@@ -72,6 +68,17 @@ const Button = styled.button`
         color: white;
         :hover {
         background-color: #437764;
+        color: white;
+        border: hidden;
+        }
+        `,
+        send: css`
+        border: hidden;
+        border-radius: 8px;
+        background-color: #699cbe;
+        color: white;
+        :hover {
+        background-color: #496681;
         color: white;
         border: hidden;
         }

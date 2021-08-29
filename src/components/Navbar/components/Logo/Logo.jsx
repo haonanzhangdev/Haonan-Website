@@ -5,9 +5,9 @@ import {Link} from 'react-router-dom';
 const LogoStyle = styled(Link)`
     font-size: 20px;
     font-weight: 540;
-    color: #414453;
+    color: #e4aa48;
     &:hover {
-        color: #414453;
+        color: #e6e6e7;
         text-decoration:none;
 }
 `;
