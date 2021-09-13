@@ -25,7 +25,6 @@ const Logo = styled.div`
 const LogoImg = styled.img`
     width: 10em;
     border-radius: 50%;
-    /* display: block; */
 `;
 
 const Header = styled.div`

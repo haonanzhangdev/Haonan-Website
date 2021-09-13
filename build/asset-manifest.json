@@ -1,35 +1,40 @@
 {
   "files": {
-    "main.css": "/Haonan-Website/static/css/main.45e9e50a.chunk.css",
-    "main.js": "/Haonan-Website/static/js/main.0a81e4b4.chunk.js",
-    "main.js.map": "/Haonan-Website/static/js/main.0a81e4b4.chunk.js.map",
+    "main.css": "/Haonan-Website/static/css/main.dc3509dd.chunk.css",
+    "main.js": "/Haonan-Website/static/js/main.91796e29.chunk.js",
+    "main.js.map": "/Haonan-Website/static/js/main.91796e29.chunk.js.map",
     "runtime-main.js": "/Haonan-Website/static/js/runtime-main.d9eaa470.js",
     "runtime-main.js.map": "/Haonan-Website/static/js/runtime-main.d9eaa470.js.map",
-    "static/js/2.22d613db.chunk.js": "/Haonan-Website/static/js/2.22d613db.chunk.js",
-    "static/js/2.22d613db.chunk.js.map": "/Haonan-Website/static/js/2.22d613db.chunk.js.map",
+    "static/js/2.0651d7fa.chunk.js": "/Haonan-Website/static/js/2.0651d7fa.chunk.js",
+    "static/js/2.0651d7fa.chunk.js.map": "/Haonan-Website/static/js/2.0651d7fa.chunk.js.map",
     "static/js/3.625f1aaf.chunk.js": "/Haonan-Website/static/js/3.625f1aaf.chunk.js",
     "static/js/3.625f1aaf.chunk.js.map": "/Haonan-Website/static/js/3.625f1aaf.chunk.js.map",
     "index.html": "/Haonan-Website/index.html",
-    "static/css/main.45e9e50a.chunk.css.map": "/Haonan-Website/static/css/main.45e9e50a.chunk.css.map",
-    "static/js/2.22d613db.chunk.js.LICENSE.txt": "/Haonan-Website/static/js/2.22d613db.chunk.js.LICENSE.txt",
+    "static/css/main.dc3509dd.chunk.css.map": "/Haonan-Website/static/css/main.dc3509dd.chunk.css.map",
+    "static/js/2.0651d7fa.chunk.js.LICENSE.txt": "/Haonan-Website/static/js/2.0651d7fa.chunk.js.LICENSE.txt",
     "static/media/FOREATERY.4dfd9c13.jpg": "/Haonan-Website/static/media/FOREATERY.4dfd9c13.jpg",
     "static/media/HOMEPAGE.7ecf478d.jpg": "/Haonan-Website/static/media/HOMEPAGE.7ecf478d.jpg",
+    "static/media/Lane.8866383e.jpg": "/Haonan-Website/static/media/Lane.8866383e.jpg",
     "static/media/Lane_Detect.8866383e.jpg": "/Haonan-Website/static/media/Lane_Detect.8866383e.jpg",
+    "static/media/Lane_process.679c7bdf.jpg": "/Haonan-Website/static/media/Lane_process.679c7bdf.jpg",
     "static/media/Login.7ae1e970.jpg": "/Haonan-Website/static/media/Login.7ae1e970.jpg",
     "static/media/PROFILE.7d608316.jpg": "/Haonan-Website/static/media/PROFILE.7d608316.jpg",
-    "static/media/Resume.8373f827.pdf": "/Haonan-Website/static/media/Resume.8373f827.pdf",
+    "static/media/Resume.71173877.pdf": "/Haonan-Website/static/media/Resume.71173877.pdf",
     "static/media/SIGNUP.d54dbf0f.jpg": "/Haonan-Website/static/media/SIGNUP.d54dbf0f.jpg",
     "static/media/VE_HP.90a9d601.jpg": "/Haonan-Website/static/media/VE_HP.90a9d601.jpg",
+    "static/media/Velocity.f8457261.jpg": "/Haonan-Website/static/media/Velocity.f8457261.jpg",
     "static/media/about.1c0c4b8f.jpg": "/Haonan-Website/static/media/about.1c0c4b8f.jpg",
     "static/media/profile.6347641a.jpg": "/Haonan-Website/static/media/profile.6347641a.jpg",
     "static/media/resume.292a1a57.jpg": "/Haonan-Website/static/media/resume.292a1a57.jpg",
     "static/media/site.8a975131.jpg": "/Haonan-Website/static/media/site.8a975131.jpg",
-    "static/media/vehicle.36c7aa0d.jpg": "/Haonan-Website/static/media/vehicle.36c7aa0d.jpg"
+    "static/media/vehicle.36c7aa0d.jpg": "/Haonan-Website/static/media/vehicle.36c7aa0d.jpg",
+    "static/media/weather-sydney.af8defd0.jpg": "/Haonan-Website/static/media/weather-sydney.af8defd0.jpg",
+    "static/media/weather.55129976.jpg": "/Haonan-Website/static/media/weather.55129976.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d9eaa470.js",
-    "static/js/2.22d613db.chunk.js",
-    "static/css/main.45e9e50a.chunk.css",
-    "static/js/main.0a81e4b4.chunk.js"
+    "static/js/2.0651d7fa.chunk.js",
+    "static/css/main.dc3509dd.chunk.css",
+    "static/js/main.91796e29.chunk.js"
   ]
 }

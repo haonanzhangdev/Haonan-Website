@@ -6,7 +6,8 @@ const Layout = styled.div`
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
-    
+    font-weight: 800;
+    letter-spacing: .2em;
 `;
 
 const ItemStyle = styled(Link)`
@@ -21,7 +22,6 @@ const ItemStyle = styled(Link)`
 
 const Items = () => (
     <Layout>
-        {/* haven't fill this part, temporatelt redirect to the homepage*/}
         <ItemStyle to='/About'>About</ItemStyle>
         <ItemStyle to='/Resume'>Resume</ItemStyle>
         <ItemStyle to='/Projects'>Projects</ItemStyle>
