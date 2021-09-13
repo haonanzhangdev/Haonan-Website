@@ -3,8 +3,6 @@ This is my personal website. A simple and beautiful website built by React app.
 <!-- See: Haonan Website -->
 [Deployed in AWS S3](http://haonan.zhang.website.s3-website.us-east-2.amazonaws.com/)
 
-[Deployed in GitHub Pages](https://conanzahn.github.io/Haonan-Website/)
-
 # Preview
 ![web](https://user-images.githubusercontent.com/54277153/130323600-52cf3b3d-d524-4e2b-8869-bed113dc5ab2.jpg)
 
@@ -54,4 +52,6 @@ This is my personal website. A simple and beautiful website built by React app.
 
 
 ## Thanks
-If you like this template don't forget give it a ⭐ and also share it with me [here](mailto:conanzahn@gmail.com).
+If you like this website don't forget give it a ⭐ and also feel free to share feedback with me [here](mailto:conanzahn@gmail.com).
+
+If you would like to communicate web development skills with me, feel free to contact me in Wechat: Zahnisme

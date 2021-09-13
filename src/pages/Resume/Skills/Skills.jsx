@@ -7,7 +7,7 @@ import Language from './Language/Language';
 
 const Sk = styled.div`
     padding: 1em 1em 2em;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
     letter-spacing: .25em;
     line-height: 1.65;
     text-align: center;

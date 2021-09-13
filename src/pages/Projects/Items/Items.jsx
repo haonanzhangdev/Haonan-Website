@@ -4,6 +4,8 @@ import VE from '../../../assets/img/VE_HP.jpg';
 import Lane from '../../../assets/img/Lane_Detect.jpg';
 import Vehicle from '../../../assets/img/vehicle.jpg';
 import VEIMG from '../components/valueEats';
+import LIMG from '../components/Lane';
+import MWIMG from '../components/MyWeather';
 
 const Cells = styled.div`
     position: relative;
@@ -28,7 +30,7 @@ const PostHeader = styled.div`
 const H3 = styled.h3`
     font-size: .9em;
     color: #3c3b3b;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
     font-weight: 800;
     letter-spacing: .25em;
     line-height: 1.65;
@@ -39,7 +41,7 @@ const H3 = styled.h3`
 const P = styled.p`
     font-size: .7em;
     color: #4b4a4a;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
     font-weight: 600;
     letter-spacing: .25em;
     line-height: 1.65;
@@ -54,8 +56,16 @@ const Href = styled.a`
     border-bottom: 1px dotted hsla(0,0%,62.7%,.65);
     color: inherit;
     text-decoration: none;
+`;
+
+const A = styled.a`
+    overflow: hidden;
+    width: 100%;
+    transition: color .2s ease,border-bottom-color .2s ease;
+    color: inherit;
+    text-decoration: none;
     :hover{
-        color: #2e59ba!important;
+        color: #e4aa48;
     }
 `;
 
@@ -80,7 +90,7 @@ const DesP = styled.p`
     padding: 1.25em;
     background-color: hsla(0,0%,75%,.1);
     color: #3c3b3b;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
     /* z-index: 1000; */
     transition: all .1s;
     -webkit-transition: all .1s ease-in-out;
@@ -90,10 +100,24 @@ const Items = () => (
     <Cells>
         <Post>
             <PostHeader>
-                <H3>Value Eats</H3>
+                <H3><A href='https://conanzahn.github.io/myweather' target="_blank">My Weather App</A></H3>
+                <P>SEPTEMBER 2021</P>
+            </PostHeader>
+            <Href href='https://conanzahn.github.io/myweather' target="_blank">
+                <MWIMG />
+            </Href>
+            <DES>
+                <DesP>My Weather App is a web application that provide users search function to 
+                    check weather and forecast information. This is build by Ract and OpenWeatherMap API.</DesP>
+            </DES>
+        </Post>
+
+        <Post>
+            <PostHeader>
+                <H3><A href='https://github.com/conanzahn/ValueEatsWebsite9900.git' target="_blank">Value Eats</A></H3>
                 <P>MAY 2021 - AUGUST 2021</P>
             </PostHeader>
-            <Href href='https://github.com/conanzahn/ValueEatsWebsite9900.git'>
+            <Href href='https://github.com/conanzahn/ValueEatsWebsite9900.git' target="_blank">
                 {/* <IMG src={VE}/> */}
                 <VEIMG />
             </Href>
@@ -107,11 +131,12 @@ const Items = () => (
 
         <Post>
             <PostHeader>
-                <H3>Velocity Estimation and Lane Detection (Computer Vision)</H3>
+                <H3><A href='https://github.com/conanzahn/Velocity-Estimation-and-Lane-Detection.git/' target="_blank">Velocity Estimation and Lane Detection (Computer Vision)</A></H3>
                 <P>April 2021</P>
             </PostHeader>
             <Href href='https://github.com/conanzahn/Velocity-Estimation-and-Lane-Detection.git/'>
-                <IMG src={Lane}/>
+                {/* <IMG src={Lane}/> */}
+                <LIMG />
             </Href>
             <DES>
                 <DesP>This is a group project about computer vision. Using python 
@@ -121,7 +146,7 @@ const Items = () => (
 
         <Post>
             <PostHeader>
-                <H3>Vehicle Detection (Computer Vision)</H3>
+                <H3><A href='https://github.com/conanzahn/Vehicle-Detection-Computer-Vision-.git' target='_blank'>Vehicle Detection (Computer Vision)</A></H3>
                 <P>March 2021</P>
             </PostHeader>
             <Href href='https://github.com/conanzahn/Vehicle-Detection-Computer-Vision-.git'>

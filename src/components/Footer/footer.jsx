@@ -13,7 +13,7 @@ const Container = styled.div`
 
 const Cpright = styled.div`
     color: #aaa;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
     font-size: .5em;
     font-weight: 400;
     letter-spacing: .25em;

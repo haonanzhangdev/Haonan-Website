@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Cour = styled.div`
     padding: 1em 1em 2em;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
     letter-spacing: .25em;
     line-height: 1.65;
     text-align: center;
@@ -55,7 +55,7 @@ const H4 = styled.h4`
 
 const P = styled.p`
     display: inline;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
     font-size: .8em;
     font-weight: 400;
     letter-spacing: .25em;

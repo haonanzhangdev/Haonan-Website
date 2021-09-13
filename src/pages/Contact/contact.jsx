@@ -15,7 +15,7 @@ const Container = styled.div`
     border: 1px solid hsla(0,0%,62.7%,.3);
     margin: 0 0 3em;
     position: relative;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
 `;
 
 const Header = styled.div`

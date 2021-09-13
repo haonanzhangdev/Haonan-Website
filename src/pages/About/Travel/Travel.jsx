@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Tra = styled.div`
     padding: 1em 1em 2em;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
     letter-spacing: .25em;
     line-height: 1.65;
 `;

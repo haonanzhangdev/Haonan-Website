@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Exp = styled.div`
     padding: 1em 1em 2em;
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: 'Glory', sans-serif;
     letter-spacing: .25em;
     line-height: 1.65;
 `;
@@ -58,19 +58,41 @@ const List = styled.li`
 const Experience = () => (
     <Exp>
         <ExpTit>Experience</ExpTit>
+
         <ExpBody>
             <Headh4>
-                Personal Website (Portfolio) - Owner {'&'} Developer
+                My Weather App - Owner {'&'} Developer
             </Headh4>
             <Time>
-                <Linksch href = 'https://github.com/conanzahn/Haonan-Website.git/'>
+                <Linksch href = 'https://conanzahn.github.io/myweather/'>
+                    My Weather Website
+                </Linksch>, SEPTEMBER 2021
+            </Time>
+            <Points>
+                <List>Design and developed a weather web application by using the latest React library and open API.</List>
+                <List>Objectives: implement search function to check weather, offer current weather and 5 days forecast.</List>
+                <List>Using React17.0.2 to build front-end framework. Using Javascript, CSS, styled-components, flexbox, Axios, 
+                    npm, Font Awesome, React Iconsm React Animated Weather, Google Fonts.</List>
+                <List>Using OpenWeatherMap as backend open API.</List>
+                <List>Successfully deployed to AWS S3 and GitHub Pages.</List>
+            </Points>
+        </ExpBody>
+
+        <ExpBody>
+            <Headh4>
+                Personal Website - Owner {'&'} Developer
+            </Headh4>
+            <Time>
+                <Linksch href = 'http://haonan.zhang.website.s3-website.us-east-2.amazonaws.com/'>
                     Haonan Zhang's Website
                 </Linksch>, AUGUST 2021
             </Time>
             <Points>
-                <List>Skills: Git, GitHub, React, Javascript, styled-components, CSS, Sass, npm, Bootstrap.</List>
-                <List>Use create react app build my portfolio website.</List>
-                <List>Design website interface.</List>
+                <List>Design and develop my personal website application by using the latest React library.</List>
+                <List>Objectives: implement a website to introduce myself, display about me, resume, project and contact pages to let people know me.</List>
+                <List>Using React17.0.2 to build framework. Using skills: Git, GitHub, React, Javascript, Bootstrap, styled-components, CSS, Sass, Font Awesome, npm.</List>
+                <List>Using Formspree backend open API as a send email service.</List>
+                <List>Successfully deployed to AWS S3 and GitHub Pages.</List>
             </Points>
         </ExpBody>
 
@@ -80,25 +102,26 @@ const Experience = () => (
             </Headh4>
             <Time>
                 <Linksch href = 'https://github.com/conanzahn/ValueEatsWebsite9900.git'>
-                    Value Eats Website
+                    Value Eats Project
                 </Linksch>, MAY 2021 - AUGUST 2021
             </Time>
             <Points>
-                <List>Skills: Jira, Git, GitHub, React, Javascript, styled-components, CSS, Sass, npm, Axios, Bootstrap, Material-UI.</List>
-                <List>Design and Implement a website software that provides restaurant discount vouchers. Includes two different user types
-                for specific demands.</List>
-                <List>Main features: Allows eatery users to create and verify vouchers; Allow diner users to search, navigate, and book
-                vouchers. Also provides recommendation and subscription features. All users can create and manage their accounts</List>
+                <List>Design and develop an eatery voucher application by using the Django framework and the latest React library.</List>
+                <List>Lead a 5-member team with 2 frontend developers and 3 backend developers.</List>
+                <List>Helped team successfully deliver project on time with quite well quality.</List>
+                <List>Objectives: Implement a website to serve eatery and dinner users. Allow users to create an account and manage 
+                    their profiles. Allow eateries to create and verify their restaurant's voucher, allow diners to navigate and book vouchers.</List>
+                <List>Main features: For diners, provides personalized recommendations, search, navigate, book vouchers, add reviews, 
+                    subscription, order history features; For eateries, provides create voucher, verify vouchers, search, check voucher stock features.</List>
+                <List>Using React17.0.2 to build front-end framework. Using skills: Javascript, styled-components, CSS, Sass, npm, 
+                    Axios, Bootstrap, Material-UI, Font Awesome.</List>
+                <List>Using Django3.2.4 to build back-end framework. Using SQLite as database. Using JSON Web Token for authentication. 
+                    Using Postman for API testing.</List>
                 <List>Design project proposal, construct all possible user stories and design a road map of the project.</List>
-                <List>I use Jira to manage team co-operate, assign tasks to team members. I have created six sprints for this project, each
+                <List>Using Git to manage version control and solve team code conflicts. Using GitHub to manage project code.</List>
+                <List>Using Jira to manage team co-operate, assign tasks to team members. Totally, I have created six sprints for this project, each
                 sprint contains some features that support user stories.</List>
-                <List>Use GitHub to manage project code.</List>
-                <List>Use Git command to manage version control.</List>
-                <List>Responsible for front-end development, use React app to build front-end framework and npm as the package manager.</List>
-                <List>Use javascript, styled-components, CSS, Sass.</List>
-                <List>Use Axios to connect front-end and back-end.</List>
-                <List>Use React-Bootstrap and Material-UI as the third part of functionality licensing.</List>
-                <List>Design website interface.</List>
+                <List>Responsible for front-end development, team management, project management, Architecture design, UI/UX design.</List>
             </Points>
         </ExpBody>
 
@@ -150,7 +173,7 @@ const Experience = () => (
                 Classification and rating prediction for user reviews (deep learning model) - Developer
             </Headh4>
             <Time>
-                <Linksch href = ''>
+                <Linksch href = 'https://github.com/conanzahn/Classification-and-rating-prediction-for-user-reviews'>
                     Deep Learning NLP Model
                 </Linksch>, SEPTEMBER 2020 - NOVEMBER 2020
             </Time>
@@ -185,7 +208,7 @@ const Experience = () => (
                 Sentiment analysis for Twitter user comments - Developer
             </Headh4>
             <Time>
-                <Linksch href = ''>
+                <Linksch href = '#'>
                     Rossmann sales forecast
                 </Linksch>, JUNE 2020 - JULY 2020
             </Time>
